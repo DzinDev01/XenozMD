@@ -1,0 +1,35 @@
+{
+  "name": "xenozv1.0.0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Dzin",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "github:DzinDev01/Baileys1.0.0",
+    "awesome-phonenumber": "^4.4.0",
+    "axios": "^0.24.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.10",
+    "child_process": "^1.0.2",
+    "crypto": "^1.0.1",
+    "file-type": "^16.5.3",
+    "filesize": "^10.0.7",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "^0.0.1-security",
+    "human-readable": "^0.2.1",
+    "jimp": "^0.16.1",
+    "moment-timezone": "^0.5.43",
+    "node-fetch": "^2.6.1",
+    "node-webpmux": "^3.1.7",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "performance-now": "^2.1.0",
+    "pino": "^9.4.0",
+    "util": "^0.12.5"
+  }
+}
