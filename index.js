@@ -1,4 +1,4 @@
-require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
+require("https").createServer((_, res) => res.end("Uptime!")).listen(8080)
 require('./database/settings')
 const fs = require('fs')
 const pino = require('pino')
