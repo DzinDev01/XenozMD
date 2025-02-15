@@ -23,6 +23,7 @@ async function DzinStart() {
   const { state, saveCreds } = await useMultiFileAuthState('session') 
   
   const dzin = await WAConnection({ 
+    require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
     version: [2, 3000, 1017531287], 
     browser: ['ios', 'Chrome', '10.15.7'], 
     printQRInTerminal: !pairingCode, 
